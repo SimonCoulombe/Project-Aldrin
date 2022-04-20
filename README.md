@@ -164,14 +164,13 @@ Allows you to print the correlation matrix of all numerical variables to an exce
 <a name="section-3"></a>
 ## PART III - Notebooks
 <a name="train"></a>
-# train.ipynb
+### train.ipynb
 
 This notebook synthesises the process of retraining the Oceania ranking model. You may find many of the R&D ideas helpful in the `R&D.ipynb` file.
 
-<br>
-<br>
+
 <a name="RnD"></a>
-## R&D.ipynb
+### R&D.ipynb
 This notebook contained the methodology used during the research and development. It contained many ideas that did not made it to production, e.g. multinomial classification technique, data exploration and the process of removing correlated variables. A total of 609 variables from XMLLOG are investigated during the feature selection process. [Att.xlsx](/users/mleong/repos/project-aldrin/browse/ATT.xlsx) is the universe of variables available and investigated.
 
 [back to top](#TBC)
