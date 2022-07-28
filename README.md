@@ -3,7 +3,7 @@
 ### Table of Contents
 
 Part I. [Folders](#section-1)  
-1. [Data_Handler](/users/mleong/repos/project-aldrin/browse/Data_Handler)  
+1. [Data_Handler](#Data-Handler)  
 2. [scoring](/users/mleong/repos/project-aldrin/browse/scoring)
 3. [my_logs](/users/mleong/repos/project-aldrin/browse/my_logs)
 
