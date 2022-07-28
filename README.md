@@ -22,9 +22,9 @@ Project Aldrin aims to improve the competitiveness of our pricing offered on agg
 
 In [Part III](#section-3) consist of a jupyter-notebook - [train.ipynb](#train), which is the primary documentation of the procedure. The python environment requirement is listed in [requirements.txt](). Use `pip install -r requirements.txt` to replicate it.
 
-The [Data_Handler](/users/mleong/repos/project-aldrin/browse/Data_Handler) is a folder that contains all data handling modules, including SQL scripts, downloading function from Bigquery, data I/O to and from GCP storage bucket, logging capability, i.e. loading or dumping pickle file, and import or export MOJO file.
+The [Data_Handler](Data_Handler/) is a folder that contains all data handling modules, including SQL scripts, downloading function from Bigquery, data I/O to and from GCP storage bucket, logging capability, i.e. loading or dumping pickle file, and import or export MOJO file.
 
-Data that needed to be logged during the traing process are kept in the [my_logs](/users/mleong/repos/project-aldrin/browse/my_logs) folder. This folder contains all metadata generated during the training process, which includes the following but not limited to:
+Data that needed to be logged during the traing process are kept in the [my_logs](my_logs/) folder. This folder contains all metadata generated during the training process, which includes the following but not limited to:
 
 * Hyperparameter of various trials models.
 * Correlation matrix for the imported data.
@@ -35,7 +35,7 @@ Data that needed to be logged during the traing process are kept in the [my_logs
 * Information regarding null value.
 * Data used for plotting when comparing models during evaluation.
 
-The metadata will not be uploaded to Git as a standard process unless specified in the `.gitignore`. Last but not least, the output model that are ready for production are kept in the [scoring](/users/mleong/repos/project-aldrin/browse/scoring) folder. This folder contained all production unit:
+The metadata will not be uploaded to Git as a standard process unless specified in the `.gitignore`. Last but not least, the output model that are ready for production are kept in the [scoring](scoring/) folder. This folder contained all production unit:
 * All Implemented MOJO (Model Object, Optimized)
 * An Earnix postman script
 * A python script that mimics the HTTP request protocol
@@ -172,7 +172,7 @@ This notebook synthesises the process of retraining the Oceania ranking model. Y
 
 <a name="RnD"></a>
 ### R&D.ipynb
-This notebook contained the methodology used during the research and development. It contained many ideas that did not made it to production, e.g. multinomial classification technique, data exploration and the process of removing correlated variables. A total of 609 variables from XMLLOG are investigated during the feature selection process. [Att.xlsx](/users/mleong/repos/project-aldrin/browse/ATT.xlsx) is the universe of variables available and investigated.
+This notebook contained the methodology used during the research and development. It contained many ideas that did not made it to production, e.g. multinomial classification technique, data exploration and the process of removing correlated variables. A total of 609 variables from XMLLOG are investigated during the feature selection process. [Att.xlsx](ATT.xlsx) is the universe of variables available and investigated.
 
 [back to top](#TBC)
 
