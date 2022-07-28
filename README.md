@@ -4,8 +4,8 @@
 
 Part I. [Overview](#section-1)  
 1. [Data_Handler](Data_Handler/)  
-2. [scoring](/users/mleong/repos/project-aldrin/browse/scoring)
-3. [my_logs](/users/mleong/repos/project-aldrin/browse/my_logs)
+2. [scoring](scoring/)
+3. [my_logs](my_logs/)
 
 Part II. [Modules](#section-2)  
 1. [Evaluation.py](#evaluation)
