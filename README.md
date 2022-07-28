@@ -2,8 +2,8 @@
 <a name="TBC"></a>
 ### Table of Contents
 
-Part I. [Folders](#section-1)  
-1. [Data_Handler](#Data-Handler)  
+Part I. [Overview](#section-1)  
+1. [Data_Handler](Data_Handler/)  
 2. [scoring](/users/mleong/repos/project-aldrin/browse/scoring)
 3. [my_logs](/users/mleong/repos/project-aldrin/browse/my_logs)
 
@@ -16,6 +16,7 @@ Part III. [Notebooks](#section-3)
 2. [R&D.ipynb](#RnD)	
 
 
+<a name="section-1"></a>
 ## Overview
 Project Aldrin aims to improve the competitiveness of our pricing offered on aggregator (CTM). The following repository contained the predictive model capable of estimating the likelihood of a given quote being ranked number-1 on the aggregator website and the resource needed to reproduce.
 
